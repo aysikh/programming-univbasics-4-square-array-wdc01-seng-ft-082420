@@ -7,7 +7,6 @@ def square_array(numbers)
 end
 
 def square_array(new_numbers)
-  new_numbers = [9, 10, 16, 25]
   new_array = []
   new_numbers.length.times do |index|
     new_array.push(new_numbers[index] ** 2)

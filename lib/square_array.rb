@@ -1,8 +1,8 @@
 def square_array(array)
-  numbers = [1, 2, 3,]
+  array = [1, 2, 3,]
   new_array = []
-  numbers.length.times do |index|
-    new_array.push *= (numbers[index])
+  array.length.times do |index|
+    new_array.push *= (array[index])
   end
   new_array
 end
